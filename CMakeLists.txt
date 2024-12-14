@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.27)
+project(learn_C C)
+
+set(CMAKE_C_STANDARD 17)
+
+add_executable(pointer_var chapter_2/pointer_var.c)
+add_executable(pointer_function chapter_2/pointer_function.c)
+add_executable(pointer_array chapter_2/pointer_array.c)
+add_executable(exercise_1 chapter_2/static_variable_lifetime_exercise_1.c)
+add_executable(exercise_2 chapter_2/pointer_array_of_function_exercise_2.c)
+add_executable(wraparound chapter_3/wraparound.c)
+add_executable(type_cast chapter_3/unsaved_type_cast.c)
+add_executable(p_increment chapter_4/pointer_increment.c)
+add_executable(go_to chapter_5/go_to_exercise_1.c)
+add_executable(chapter_5_exercise_2 chapter_5/find_element_exercise_2.c)
+add_executable(chapter_5_exercise_3 chapter_5/absolute_value_exercise_3.c)
+add_executable(evaluation_strategy chapter_2/evaluation_strategy/call_by_value_and_call_by_reference.c)
+add_executable(other_rec chapter_other/recursion_common_and_tail.c)
